@@ -2,10 +2,10 @@
 Conso Mobile App.
 
 # Features
-* Share Projects
+* Publish apps
 * Message other developers
-* Rate others work
-* Search other developers
+* Rate others app
+* Search other developers or apps
 
 # Course Overview
 * Basic React Native Components
@@ -19,13 +19,14 @@ Conso Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/onboarding.png">  
+<img src="assets/images/screenshot/s1.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.png">  
+<img src="assets/images/screenshot/s3.jpg">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.png">  
+<img src="assets/images/screenshot/s2.jpg">  
 
 # Tabs Screen
-<img src="assets/images/screenshot/tabs.png">  
+<img src="assets/images/screenshot/s4.jpg">
+<img src="assets/images/screenshot/s5.jpg">  

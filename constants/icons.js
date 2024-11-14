@@ -12,6 +12,7 @@ import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import play from "../assets/icons/play.png";
 import community from "../assets/icons/population-globe.png";
+import publish from "../assets/icons/publish.png"
 
 
 export default {
@@ -29,4 +30,5 @@ export default {
   eyeHide,
   eye,
   community,
+  publish
 };

@@ -13,7 +13,7 @@ const DATA = [
   {
     id: 2,
     title: "Manage Reviews",
-    
+
 
   },
   {
@@ -23,10 +23,10 @@ const DATA = [
 ];
 
 
-const Item = ({title}) => (
+const Item = ({ title }) => (
 
-  <TouchableOpacity className = "mx-3 mt-10 bg-blue-800 w-[250px] h-[50] justify-center items-center border rounded-2xl">
-    <Text className = "text-white text-2xl font-psemibold">{title}</Text>
+  <TouchableOpacity className="mx-3 mt-10 bg-blue-800 w-[250px] h-[50] justify-center items-center border rounded-2xl">
+    <Text className="text-white text-2xl font-psemibold">{title}</Text>
 
   </TouchableOpacity>
 );
@@ -34,22 +34,22 @@ const Item = ({title}) => (
 
 const Create = () => {
   return (
-    <SafeAreaView className = "bg-secondary-500 h-full">
+    <SafeAreaView className="bg-lime-300 h-full">
       <View>
-        <Text className = "text-white text-xl mt-20 font-psemibold">Share Your Apps To Others</Text>
-        <Text className = "text-white text-3xl ">Jevs</Text>
-        <FlatList 
-           data={DATA}
-           renderItem={({item}) => <Item title={item.title} />}
-           keyExtractor={item => item.id}
+        <Text className="text-black text-xl mt-20 font-psemibold">Share Your Apps To Others</Text>
+        <Text className="text-black text-3xl ">Jevs</Text>
+        <FlatList
+          data={DATA}
+          renderItem={({ item }) => <Item title={item.title} />}
+          keyExtractor={item => item.id}
 
-      horizontal  
-    />
-    <Text className = "text-2xl text-white mt-7">Published Apps</Text>
-    <EmptyState title= "No Apps Found"
-      subtitle= "Be the first one to upload"
-      />
-      
+          horizontal
+        />
+        <Text className="text-2xl text-black mt-7">Published Apps</Text>
+        <EmptyState title="No Apps Found"
+          subtitle="Be the first one to upload"
+        />
+
       </View>
     </SafeAreaView>
   )
